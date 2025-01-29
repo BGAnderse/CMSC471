@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Why: Creates consistent starting point */
+
+/* Typography styling */
+h1 {
+    color: #34495e;  
+}
+.button {
+    background-color: #eceeed; /* Light Gray */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block; /* Ensures it takes full width for centering */
+    width: fit-content; /* Makes button wrap around content */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centering the button vertically in the viewport */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+  
+/* Class selector */
+.intro {
+    color: #34495e;
+    font-size: 18px;
+}
+body {
+    background-color: #34495e;
+}
+/* ID selector */
+#content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #34495e;
+    color: #34495e;
+    border-radius: 5px;  /* Rounded corners */
+}
